@@ -4,20 +4,20 @@ const MarqueeProposal = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const sentences = [
-    "You light up my world like no one else.",
-    "Every moment with you feels like magic.",
-    "My world begins and ends with you in it.",
-    "You're the reason my heart beats faster.",
-    "Life feels complete when you're around.",
-    "I can't imagine my future without you.",
-    "You're my sunshine on the darkest days.",
-    "With you, every day is a blessing.",
-    "You’re the missing piece that completes my heart.",
-    "You make even ordinary moments feel extraordinary.",
-    "You make my world brighter and happier.",
-    "You're the dream I never want to wake up from.",
-    "Will you be the love of my life forever?",
-  ];
+  "Dunyoyimni boshqalarga oʻxshamagan holda yoritasan.",
+  "Sening yonindagi har bir daqiqa sehrdek tuyuladi.",
+  "Mening dunyim sen bilan boshlanadi va sen bilan tugaydi.",
+  "Yuragim tezroq urishiga sababchi sensan.",
+  "Yonimda boʻlganingda hayot mukammal tuyuladi.",
+  "Kelajagimni sensiz tasavvur qila olmayman.",
+  "Eng qorongʻi kunlarimda ham mening quyoshimsan.",
+  "Sen bilan har bir kun bir baraka/baxtdir.",
+  "Yuragimni toʻldiradigan yetishmayotgan boʻlagimsan.",
+  "Hatto oddiy daqiqalarni ham ajoyib qilasan.",
+  "Dunyoyimni yanada charogʻon va baxtli qilasan.",
+  "Sen men hech qachon uygʻonishni xohlamaydigan tushimsan.",
+  "Bir umr hayotimning sevgisi boʻlasanmi?",
+];
 
   useEffect(() => {
     const interval = setInterval(() => {
