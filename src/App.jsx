@@ -345,7 +345,7 @@ export default function Page() {
               alt="Love Animation"
             />
             <h1 className="text-4xl md:text-6xl my-4 text-center">
-              Will you be my Valentine?
+              Men bilan birga baxtli bo'lishga tayyormisan?
             </h1>
             <div className="flex flex-wrap justify-center gap-2 items-center">
               <button
@@ -355,7 +355,7 @@ export default function Page() {
                 style={{ fontSize: yesButtonSize }}
                 onClick={handleYesClick}
               >
-                Yes
+                Ha
               </button>
               <button
                 onMouseEnter={handleMouseEnterNo}
@@ -363,7 +363,7 @@ export default function Page() {
                 onClick={handleNoClick}
                 className="bg-rose-500 hover:bg-rose-600 rounded-lg text-white font-bold py-2 px-4"
               >
-                {noCount === 0 ? "No" : getNoButtonText()}
+                {noCount === 0 ? "Yo'q" : getNoButtonText()}
               </button>
             </div>
             {floatingGifs.map((gif) => (
