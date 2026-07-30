@@ -214,32 +214,32 @@ export default function Page() {
   const getNoButtonText = () => {
 
     const phrases = [
-      "No",
-      "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
-      "This could be a mistake!",
-      "U Have a heart!💕",
-      "Don't be so cold!",
-      "Wouldn't you reconsider?",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
-      "But... why? 😢",
-      "Please, pretty please? 💖",
-      "I can't take this! 😫",
-      "Are you sure you want to do this to me? 😢",
-      "You're gonna hurt my feelings! 😥",
-      "I need you to reconsider, like now! 😓",
-      "I believe in you, don't disappoint me! 💔",
-      "My heart says yes, what about yours? ❤️",
-      "Don't leave me hanging! 😬",
-      "Plsss? :( You're breaking my heart 💔",
-    ];
+  "Yoʻq",
+  "Ishonching komilmi?",
+  "Haqiqatan ham ishonasanmi?",
+  "Yana bir bor oʻylab koʻr!",
+  "Soʻnggi imkoniyat!",
+  "Nahotki?",
+  "Buning uchun afsuslanishing mumkin!",
+  "Yana bir bor fikrlab koʻr!",
+  "Mutlaqo aminsanmi?",
+  "Bu xato boʻlishi mumkin!",
+  "Rahming kelsin!💕",
+  "Bunday bagʻritosh boʻlma!",
+  "Fikringdan qaytmaysanmi?",
+  "Bu oxirgi javobingmi?",
+  "Yuragimni parchalayapsan ;(",
+  "Lekin... nega? 😢",
+  "Iltimos, yolvoraman? 💖",
+  "Chiday olmayman! 😫",
+  "Menga buni qilishni xohlayotganingga ishonching komilmi? 😢",
+  "Koʻnglimga ozor berasan! 😥",
+  "Qayta koʻrib chiqishing kerak, hoziroq! 😓",
+  "Senga ishonaman, mening umidimni uzma! 💔",
+  "Yuragim 'ha' deyapti, seniki-chi? ❤️",
+  "Meni arosatda qoldirma! 😬",
+  "Iltimooos? :( Yuragimni parchalayapsan 💔",
+];
     
     return phrases[Math.min(noCount, phrases.length - 1)];
   };
@@ -247,7 +247,7 @@ export default function Page() {
   useEffect(() => {
     if (yesPressed && noCount < 4 && !popupShown) {
       Swal.fire({
-        title: "I love you sooo Much!!!❤️, You’ve stolen my heart completely!!! 🥰💖 But itni pyaari ladki aur itni jaldi haan? Thoda aur nakhre karke mujhe tarpaao na! 🥰✨",
+        title: "Seni judaaa juda yaxshi koʻraman!!!❤️, Yuragimni butunlay oʻgʻirlab boʻlding!!! 🥰💖 Lekin shunchalik shirin qiz birpasda 'ha' deydimi? Birmuncha noz-karashma qilib, meni biroz qiynagin! 🥰✨",
         showClass: {
           popup: `
             animate__animated
@@ -274,7 +274,7 @@ export default function Page() {
   useEffect(() => {
     if (yesPressed && noCount > 3 && !yespopupShown) {
       Swal.fire({
-        title: "I love you so much!! ❤️ You are my everything, my joy, my forever. Every moment with you is a memory I’ll cherish forever, and my heart beats only for you.</br> Will you be the love of my life forever?",
+        title: "Seni juda ham yaxshi koʻraman!! ❤️ Sen mening borligim, quvonchim va abadiyatimsan. Sen bilan oʻtgan har bir daqiqa men uchun bir umrga qadrli xotira va yuragim faqat sen deb uradi.</br> Bir umr hayotimning sevgisi boʻlasanmi?",
         width: 800,
         padding: "2em",
         color: "#716add",
@@ -294,7 +294,7 @@ export default function Page() {
   useEffect(() => {
     if (noCount == 25) {
       Swal.fire({
-        title: "My love for you is endless, like the stars in the sky—shining for you every night, even if you don’t always notice. 🌟 I’ll wait patiently, proving every day that you’re my everything. ❤️ Please press ‘Yes’ and let’s make this a forever story. 🥰✨<br/>'True love never gives up; it grows stronger with time.'",
+      title: "Senga boʻlgan sevgim cheksiz, xuddi osmondagi yulduzlar kabi — sen har doim ham payqamasang-da, har kuni tunda faqat sen uchun porlaydi. 🌟 Sabr bilan kutaman va har kuni sen mening borligim ekanligingni isbotlayman. ❤️ Iltimos, 'Ha' tugmasini bos va kel, buni abadiy bir qissaga aylantiraylik. 🥰✨<br/>'Haqiqiy sevgi hech qachon taslim boʻlmaydi; u vaqt oʻtgani sayin yanada kuchayadi.'",
         width: 850,
         padding: "2em",
         color: "#716add",
@@ -327,8 +327,8 @@ export default function Page() {
               src={YesGifs[currentGifIndex]}
               alt="Yes Response"
             />
-            <div className="text-4xl md:text-6xl font-bold my-2" style={{ fontFamily: "Charm, serif", fontWeight: "700", fontStyle: "normal" }}>I Love You !!!</div>
-            <div  className="text-4xl md:text-4xl font-bold my-1" style={{ fontFamily: "Beau Rivage, serif", fontWeight: "500", fontStyle: "normal" }}> You’re the love of my life. </div> 
+            <div className="text-4xl md:text-6xl font-bold my-2" style={{ fontFamily: "Charm, serif", fontWeight: "700", fontStyle: "normal" }}>Seni sevaman Mahbubam !!!</div>
+            <div  className="text-4xl md:text-4xl font-bold my-1" style={{ fontFamily: "Beau Rivage, serif", fontWeight: "500", fontStyle: "normal" }}> Sen hayotim mazmunisan. </div> 
             <WordMareque />
           </>
         ) : (
@@ -393,7 +393,7 @@ const Footer = () => {
   return (
     <a
       className="fixed bottom-2 right-2 backdrop-blur-md opacity-80 hover:opacity-95 border p-1 rounded border-rose-300"
-      href="https://github.com/UjjwalSaini07"
+      href="#"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -401,7 +401,7 @@ const Footer = () => {
       <span role="img" aria-label="heart">
         ❤️
       </span>
-      {" "}by Ujjwal
+      {" "}by Qalandar 
     </a>
   );
 };
